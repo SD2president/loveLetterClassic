@@ -1,0 +1,11 @@
+.playArea {
+    background-color: red;
+    height: 750px;
+    width: 800px;
+    margin: 50px;
+
+}
+/* background of the game*/
+body {
+    background-color: aqua;
+}
