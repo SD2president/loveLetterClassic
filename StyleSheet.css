@@ -1,11 +1,21 @@
+/*Subject to change for design, this the play area*/
 .playArea {
-    background-color: red;
+    background-color: rgb(235, 93, 93);
     height: 750px;
-    width: 800px;
-    margin: 50px;
+    width: 1300px;
+    margin: 20px 60px;
+    position: relative;
+    display: inline-block;
+    top: 70px;
+    left: 215px;
 
 }
 /* background of the game*/
 body {
-    background-color: aqua;
+    display: inline-block;
+    background-color: rgb(103, 212, 139);
+    width: 1440px;
+    height: 1024px;
+    padding: 20px;
+    position: absolute; 
 }
