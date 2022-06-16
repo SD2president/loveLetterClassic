@@ -14,10 +14,17 @@ function startOfGame(){
 
 //This draw your card on beginning your turn
 function upKeep(playerHandNum,id){
-   playerHandNum.push(deck.shift([0]))
-   document.querySelector('#'+id).append(playerHandNum[0].image())
+   //playerHandNum.push(deck.shift([0])) 
+   for (let x = playerHandNum.length; x <= 1; x++){
+    playerHandNum.push(deck.shift([0])) 
+    document.querySelector('#'+id).append(playerHandNum[x].image)
+    //return playerHandNum.image
+   }
 }
 
-upKeep(playersHand2,'Player1Hand')
+upKeep(playersHand1,'Player1Hand')
+upKeep(playersHand1,'Player1Hand')
 
-
+console.log(deck)
+console.log(playersHand1)
+console.log(playersHand1.length)

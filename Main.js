@@ -145,13 +145,10 @@ let guard5 = {
 };
 
 
-//this place for the cards to go
+//this place for the cards to go 
 let deck = [princess, king, guard1]
 let discardPile = []
-let playersHand1 = {
-    handCards: [],
-    location: document.getElementById('player1Hand'),
-};
+let playersHand1 = []
 let playersHand2 = []
 
 
