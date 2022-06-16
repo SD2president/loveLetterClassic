@@ -3,7 +3,7 @@ function princessCA(){
 }
 
 function countessCA(){
-
+    
 }
 
 function kingCA(){
@@ -11,7 +11,7 @@ function kingCA(){
 }
 
 function princeCA(){
-
+    
 }
 
 function handsmaidCA(){
