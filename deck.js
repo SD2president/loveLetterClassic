@@ -18,7 +18,7 @@ function upKeep(playerHandNum,id){
    for (let x = playerHandNum.length; x <= 1; x++){
     playerHandNum.push(deck.shift([0])) 
     document.querySelector('#'+id).append(playerHandNum[x].image)
-    //return playerHandNum.image
+    return playerHandNum.image
    }
 }
 
