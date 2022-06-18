@@ -16,7 +16,7 @@ function newImage(url,name){
     let image = document.createElement('img')
     image.src = url
     image.id = name
-    image.style.position = 'static'
+    image.style.position = 'relative'
     return image
 }
 

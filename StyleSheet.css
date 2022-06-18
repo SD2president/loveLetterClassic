@@ -30,10 +30,12 @@ body {
 }
 
 #Player1Hand > img{
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 270px;
     display: inline-block;
-    margin: 20px 30px;
+    margin: 20px 150px;
     padding: 20px 30px;
+    top: 100px;
+    left: 30px;
 }
 
