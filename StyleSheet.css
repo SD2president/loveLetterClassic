@@ -1,18 +1,19 @@
 /*Subject to change for design, this the play area*/
 .playArea {
     background-color: rgb(235, 93, 93);
-    height: 750px;
+    height: 1400px;
     width: 1300px;
     margin: 20px 60px;
-    position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     top: 70px;
     left: 215px;
 
 }
 /* background of the game*/
 body {
-    display: inline-block;
     background-color: rgb(103, 212, 139);
     width: 1440px;
     height: 1024px;
@@ -22,20 +23,23 @@ body {
 
 #backDeck{
     position: relative;
-    display: inline-block;
     height: 300px;
     width: 200px;
-    top: 200px;
-    left: 560px;
 }
 
 #Player1Hand > img{
     height: 400px;
     width: 270px;
-    display: inline-block;
-    margin: 20px 150px;
-    padding: 20px 30px;
-    top: 100px;
-    left: 30px;
 }
 
+#Player2hand > img{
+    height: 400px;
+    width: 270px;
+}
+#endTurn{
+    width: 250px;
+    height: 90px;
+    font-size: larger;
+    top: 55px;
+    left: 1325px;
+}

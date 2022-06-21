@@ -8,13 +8,13 @@ async function runsOut(){
 
 //function to give cards to players 
 function startOfGame(){
-    upKeep(playersHand1)
-    upKeep(playersHand2)
+    upKeep(playersHand1,'Player1Hand')
+    upKeep(playersHand2, 'Player2hand')
 }
 
 //This draw your card on beginning your turn
 function upKeep(playerHandNum,id){
-   for (let x = playerHandNum.length; x <= 2; x++){
+   for (let x = playerHandNum.length; x <= 1; x++){
     playerHandNum.push(deck.shift([0])) 
     document.querySelector('#'+id).append(playerHandNum[x].image)
     return playerHandNum.image
@@ -37,9 +37,9 @@ function shuffle(){
 }*/
 
 
-upKeep(playersHand1,'Player1Hand')
-upKeep(playersHand1,'Player1Hand')
+startOfGame()
 
 console.log(deck)
 console.log(playersHand1)
 console.log(playersHand1.length)
+console.log(playersHand2)

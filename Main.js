@@ -1,6 +1,5 @@
 //playing the card
 //activating the card
-//discard pile done
 //when ending your turn
 //guess a card with the "guard" ability
 //comparing the card without reveling the card to another players
@@ -8,15 +7,13 @@
 //when deck of cards runs out, then compare card from the remaining players done
 //discarding the "princess card" effect
 //win con is met 
-//deck of cards done
 //hidden parts
-
 //making the image of card present in the web and give it a unique id
 function newImage(url,name){
     let image = document.createElement('img')
     image.src = url
     image.id = name
-    image.style.position = 'relative'
+    //image.style.position = 'relative'
     return image
 }
 
@@ -151,18 +148,3 @@ let discardPile = []
 let playersHand1 = []
 let playersHand2 = []
 
-
-
-
-/*
-function gameCards(id,num,ability){
-    let name = id
-    let value = num
-    let use = ability
-    return id,num,ability
-}
-
-let card1 = gameCards(guard,1,apple) */
-
-/*deck.push(card1)
-console.log(deck[2].name)*/
